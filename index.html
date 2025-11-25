@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>dhanraj & patik | d & p clothes store</title>
+  </head>
+  <body>
+    
+    <nav class="section__container nav__container">
+      <a href="#" class="nav__logo">D & P clothes store</a>
+      <ul class="nav__links">
+      
+      </ul>  </nav>
+      <section>
+
+      
+
+<nav>
+
+
+<ul>
+  <li><a href="#cart">cart</a></li>
+<li><a href="#Home">Home</a></li>
+<li><a href="#products"> products</a></li>
+<li><a href="#About">About</a></li>
+<li><a href="#Review">Review</a></li>
+<li><a href="#Servises">Servises</a></li>
+</ul>
+<h1><a name="cart">cart</a></h1>
+<div class="mainCrad12"></div>
+<form action="order.html">
+  <div class="cart12" style="background: #49855c;">
+    total cart item:<b id="c">0</b>
+    <div id="cartval"></div>
+    <div style=" background: rgb(185, 84, 21);padding: 6px;">amount<b style="float: right;"id="t">0</b></div>
+   </div>
+
+    <button type="submit">payment</button>
+</form>
+<script src="script.js"></script>
+
+
+
+<h1><a name="Home">home</a></h1>
+ 
+    <section class="section__container collection__container">
+      <img src="assets/collection.jpg" alt="collection" />
+      <div class="collection__content">
+        <h2 class="section__title">New Collection</h2>
+        <p>#35 ITEMS</p>
+        <h4>Available on Store</h4>
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </section>
+
+    
+ 
+     
+
+    
+  <h1><a name="products">products</a></h1>
+ 
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Must Have</h2>
+      <div class="musthave__nav">
+        <a href="#">ALL</a>
+      </div>
+      <div class="mainCard">
+        <div class="card">
+          <img src="assets/musthave-1.png" id="pic1" />
+          name:Basic long sleeve T-shirt<input type="hidden"id="name1"value="Basic long sleeve T-shirt"><br>
+          price: ₹ 500<input type="hidden"id="price1" value="500"><br>
+          <input type="button" onclick="add(1)"class="btn btn-info btn-sm"  value="add to cart">
+        </div>
+        <div class="card">
+          <img src="assets/musthave-2.png" id="pic2" />
+          name:Ribbed T-shirt with buttons<input type="hidden"id="name2"value="Ribbed T-shirt with buttons"><br>
+           price: ₹600<input type="hidden"id="price2" value="600"><br>
+          <input type="button" onclick="add(2)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+        <div class="card">
+          <img src="assets/musthave-3.png" id="pic3" />
+          name:Jacket withside strips<input type="hidden"id="name3"value="Jacket withside strips"><br>
+           price: ₹900<input type="hidden"id="price3" value="900"><br>
+          <input type="button" onclick="add(3)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+        
+        
+        <div class="card">
+          <img src="assets/musthave-6.png" id="pic4"/>
+          name:Piggy skater slogan T-shirt<input type="hidden"id="name4"value="Piggy skater slogan T-shirt"><br>
+          price: ₹1000<input type="hidden"id="price4" value="1000"/><br>
+          <input type="button" onclick="add(4)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+        
+        <div class="card">
+          <img src="assets/musthave-8.png" id="pic5" />
+          name:Sweater vest with sleeves<input type="hidden"id="name5"value="Sweater vest with sleeves"><br>
+          price: ₹1200<input type="hidden"id="price5" value="1200"><br>
+          
+          <input type="button" onclick="add(5)" class="btn btn-info btn-sm" value="add to cart">
+          
+        </div>
+        <div class="card">
+          <img src="assets/musthave-9.png" id="pic6" />
+         name:Slim fit pants<input type="hidden"id="name6"value="Slim fit pants"><br>
+         price: ₹900<input type="hidden"id="price6" value="900"><br>
+          <input type="button" onclick="add(6)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+        <div class="card">
+          <img src="assets/musthave-11.png" id="pic7" />
+          name:Neon sweatshirt<input type="hidden"id="name7"value="Neon sweatshirt"><br>
+          price: ₹1400<input type="hidden"id="price7" value="1400"><br>
+          <input type="button" onclick="add(7)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+        <div class="card">
+          <img src="assets/musthave-12.png" id="pic8" />
+          name:Hooded nautical jacket<input type="hidden"id="name6"value="Hooded nautical jacket"><br>
+           price: ₹400<input type="hidden"id="price8" value="400"><br>
+          <input type="button" onclick="add(8)" class="btn btn-info btn-sm" value="add to cart">
+        </div>
+      </div>
+
+      <h1><a name="review">review</a></h1>
+    <!--Review-->
+
+    <div class="review" id="Review">
+      <h1>Customer's<span>review</span></h1>
+      
+      <div class="review_box">
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/girl_dp1.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>Ranidi Lochana</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                      nice product
+                  </p>
+              </div>
+          </div>   
+
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/man_dp1.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>Sayuru Tharanga</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                      very comfortable clothes
+                  </p>
+              </div>
+          </div>   
+
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/man_dp2.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>Senuda Dilwan</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                      best products 
+                  </p>
+              </div>
+          </div>   
+
+      </div>
+
+      <div class="review_box">
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/gir_dp3.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>Kaveesha Vidurangi</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                      good product and services
+                  </p>
+              </div>
+          </div>   
+
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/gir_dp2.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>John Deo</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                      nice product
+                  </p>
+              </div>
+          </div>   
+
+          <div class="review_card">
+              <div class="card_top">
+                  <div class="profile">
+
+                      <div class="profile_image">
+                          <img src="image/man_dp3.jpg">
+                      </div>
+
+                      <div class="name">
+                          <strong>Charith Aruna</strong>
+
+                          <div class="like">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="comment">
+                  <p>
+                    good product and services!
+                  </p>
+              </div>
+          </div>   
+
+      </div>
+
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+
+    </section>
+    
+
+    <div class="services" id="Servises">
+        <h1>our<span>services</span></h1>
+
+        <div class="services_cards">
+            <div class="services_box">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast Delivery</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>10 Days Replacement</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24 x 7 Support</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+    </div>
+<br>
+
+<h1><a name="About">about</a></h1>
+    <section class="news">
+      <div class="section__container news__container">
+        <h2 class="section__title">about</h2>
+        <div class="news__grid">
+          <div class="news__card">
+            <img src="assets/news-1.jpg" alt="news" />
+            <div class="news__details">
+              <p>
+                FASHION <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>JAMES SIMSON</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> FEB 2, 2019
+              </p>
+              <h4>Seasonal Trends</h4>
+              <hr />
+              <p>
+                Discuss the latest fashion trends for the current season and
+                offer tips and ideas on how to incorporate these trends into
+                your wardrobe.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          <div class="news__card">
+            <img src="assets/news-2.jpg" alt="news" />
+            <div class="news__details">
+              <p>
+                TRENDS <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>JAMES SIMSON</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> APR 15, 2019
+              </p>
+              <h4>Fashion Tips and Advice</h4>
+              <hr />
+              <p>
+                Provide your readers with practical tips and advice on how to
+                dress for different occasions, body types, or style preferences.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container brands__container">
+      <div class="brand__image">
+        <img src="assets/brand-1.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-2.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assets/brand-3.png" alt="brand" />
+      </div>
+    
+    </section>
+
+    <hr />
+
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <h4 class="footer__heading">CONTACT INFO</h4>
+        <p>
+          <i class="ri-map-pin-2-fill"></i>  akurdi ganganagare pune.4121
+        </p>
+        <p><i class="ri-mail-fill"></i> support dhanrajnavghane@gmail.com</p>
+        <p><i class="ri-phone-fill"></i> 8149644842</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">COMPANY</h4>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Work With Us</p>
+        <p>Our Blog</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">USEFUL LINK</h4>
+        <p>Help</p>
+        <p>Track My Order</p>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Shoes</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">INSTAGRAM</h4>
+        <div class="instagram__grid">
+          <img src="assets/instagram-1.jpg" alt="instagram" />
+          <img src="assets/instagram-2.jpg" alt="instagram" />
+          <img src="assets/instagram-3.jpg" alt="instagram" />
+          <img src="assets/instagram-4.jpg" alt="instagram" />
+          <img src="assets/instagram-5.jpg" alt="instagram" />
+          <img src="assets/instagram-6.jpg" alt="instagram" />
+<p>follow for more updates D&P_CLOTHES </p>
+        </div>
+      </div>
+    </footer>
+
+    <hr />
+
+    
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="payment.css">
+       <center> <h1>D & P clothes store</h1></center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button Image Display</title>
+    <style>
+        img {
+            display: none; 
+            max-width: 300px; 
+        }
+    </style>
+</head>
+<body>
+
+<h2>Select an payment:option</h2>
+<form action="thanks.html">
+<label>
+    <input type="radio" name="image" value="img1" onclick="showImage('img1')"> upi
+</label>
+
+<div>  <input type="radio"value="upi">cod
+</div>
+<button type="submit">payment</button>
+
+
+</form>
+<div>
+    <img id="img1" src="dhanraj.jpg" alt="Image 1">
+    <img id="img2" src="https://via.placeholder.com/300?text=Image+2" alt="Image 2">
+</div>
+
+<script>
+    function showImage(selectedImage) {
+        
+        document.getElementById('img1').style.display = 'none';
+        document.getElementById('img2').style.display = 'none';
+        
+        
+        document.getElementById(selectedImage).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
